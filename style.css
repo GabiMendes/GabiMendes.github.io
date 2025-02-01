@@ -1,0 +1,36 @@
+html {
+    color: #cccccc;
+    background-color: black;
+    font-family: "Cascadia Mono", monospace;
+  }
+  
+  .prompt {
+    display: flex;
+    align-items: center;
+    margin-top: -1%;
+  }
+  
+  .error {
+    color: #e74856;
+  }
+  
+  #commandInput {
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+    flex: 1;
+    color: #cccccc;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+    font-family: "Cascadia Mono", monospace;
+  }
+  
+  #prompt {
+    text-wrap: nowrap;
+  }
+  
+  input[type=text] {
+    caret-color: #cccccc;
+  }
